@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "432603362462",
+    "firebase_url": "https://spendee-1ed64-default-rtdb.firebaseio.com",
+    "project_id": "spendee-1ed64",
+    "storage_bucket": "spendee-1ed64.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:432603362462:android:21ca8bba47f018c513b78f",
+        "android_client_info": {
+          "package_name": "com.abhishek.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "432603362462-v7b5lf5jjtp6qk1hi071kip4fg0hetl6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDPJZ-h8fnbv-wsHitW4iM_2sSFACzoCs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "432603362462-v7b5lf5jjtp6qk1hi071kip4fg0hetl6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

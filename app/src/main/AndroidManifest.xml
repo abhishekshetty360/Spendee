@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.abhishek.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+        <activity android:name="com.abhishek.myapplication.NextIncome"></activity>
+        <activity android:name="com.abhishek.myapplication.emi" />
+        <activity android:name="com.abhishek.myapplication.income2" />
+        <activity android:name="com.abhishek.myapplication.Finalinc" />
+        <activity android:name="com.abhishek.myapplication.inc_emi" />
+        <activity android:name="com.abhishek.myapplication.searchdata2" />
+        <activity android:name="com.abhishek.myapplication.searchdata" />
+        <activity android:name="com.abhishek.myapplication.change_password" />
+        <activity android:name="com.abhishek.myapplication.Profile" />
+        <activity
+            android:name="com.abhishek.myapplication.feedback"
+            android:label="@string/title_activity_feedback"
+            android:theme="@style/Theme.MyApplication.NoActionBar" />
+        <activity android:name="com.abhishek.myapplication.about" />
+        <activity android:name="com.abhishek.myapplication.first_home_page" />
+        <activity android:name="com.abhishek.myapplication.resetpassword" />
+        <activity android:name="com.abhishek.myapplication.Registration" />
+        <activity android:name="com.abhishek.myapplication.home_screen" />
+        <activity android:name="com.abhishek.myapplication.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
